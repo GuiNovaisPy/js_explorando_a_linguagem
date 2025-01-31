@@ -14,3 +14,4 @@ idade = 21; //pelo fato da variavel ja ter sido declarada, nao precisamos setar 
 
 console.log(`meu nome é ${nome} ${sobrenome}, minha idade apos a mudanca ${idade}`);
 
+
