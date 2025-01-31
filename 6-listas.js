@@ -11,6 +11,13 @@ const listaDeDestinos = new Array(  //declarando uma lista nova
     `Rio De Janeiro`,
 );
 
+
+const lista2 = new Array(
+
+);
+
+
+console.log(lista2)
 listaDeDestinos.push(`Curitiba`) //adicionando mais itens a lista
 
 console.log("Destinos possiveis:");
