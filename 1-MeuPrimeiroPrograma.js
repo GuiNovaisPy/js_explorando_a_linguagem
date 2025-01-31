@@ -1,3 +1,9 @@
+console.log("Meu primeiro programa: trabalhando com variaveis");
 
-const first_command = "Meu primeiro programa";
-console.log(first_command);
+const idade = 20; 
+console.log("idade atual "+ idade);
+
+const idadeSomada = idade + 2
+console.log("idade daqui a 2 anos:"+ idadeSomada)
+
+
