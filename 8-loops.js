@@ -27,7 +27,7 @@ let destinoExiste = false;
 while (contador < listaDeDestinos.length) {
     if (listaDeDestinos[contador] == destino){//acessando os itens da lista
         //console.log("o destino esta disponivel na lista");
-        destinoExiste = true
+        destinoExiste = true;
         break;
     }else{
         if(contador == listaDeDestinos.length - 1){// -1 por conta do index partir do zero, e ja o lenght nao considera esse zero ele parte do 1
@@ -39,4 +39,4 @@ while (contador < listaDeDestinos.length) {
 
 };
 
-console.log("destino existe:",destinoExiste)
+console.log("destino existe:",destinoExiste);
