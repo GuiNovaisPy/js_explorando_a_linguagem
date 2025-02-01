@@ -11,7 +11,7 @@ const listaDeDestinos = new Array(
 const idadeComprador = 18;
 const estaAcompanhada = false;//boleando true or false
 let temPassagemComprada = false;//variavel
-const destino = 'SÃO PAULO';
+const destino = 'CURITIBA';
 
 const podeComprar = idadeComprador >= 18 || estaAcompanhada;//retorna um verdadeiro ou falso para a constante podeComprar
 
@@ -40,3 +40,19 @@ while (contador < listaDeDestinos.length) {
 };
 
 console.log("destino existe:",destinoExiste);
+
+if (podeComprar && destinoExiste){
+    console.log(`Boa viagem!! para ${destino}`);
+}else{
+    console.log('desculpe tivemos um erro');
+}
+
+for (let cont = 0; cont <= 2 ;cont+=1){// let = cont para declarar a variavel de inicialização, cont < 3 a condicao que ele vai verificar a cada interacao caso seja falsa o lop é quebrado, e por final no terceiro espaço cont +=1 é a acao que ele vai realizar apos cada interacao 
+    if (listaDeDestinos[cont] == destino){
+        
+        destinoExiste = true;
+        console.log(destinoExiste)
+        //break;
+    }
+
+}
